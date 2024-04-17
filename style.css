@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+body {
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    background: #ffffff42;
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #598d66a9;
+    border-radius: 10px;
+    width: 7px;
+}
+body::-mozilla-scrollbar {
+    background: #ffffff3f;
+    width: 7px;
+}
+body::-mozilla-scrollbar-thumb{
+    background: #598d66a9;
+    border-radius: 10px;
+    width: 7px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #e1ede6;
+}
+.header-wrapper {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 472px;
+}
+.navigation {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    text-decoration: none;
+}
+.icons_buy {
+    width: 24px;
+    height: 24px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    color: #2c2d35;
+    padding-bottom: 30px;
+    width: 500px;
+}
+h1 span {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    color: #598d66;
+    width: 462px;
+}
+.promo {
+    width: 100%;
+    height: fit-content;
+}
+.promo-wrapper {
+    height: fit-content;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bird {
+    width: 540px;
+    height: 621px;
+}
+.bird img{
+    width: 100%;
+}
+.promo_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928b;
+    width: 540px;
+    margin-bottom: 67px;
+}
+.button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #598d66;
+    border: 1px solid #598d66;
+    padding: 20px 60px;
+    width: 227px;
+    height: 65px;
+    background: none;
+    transition: 0.4s ease-in-out;
+}
+.button:hover {
+    transition: 0.4s ease-in-out;
+    background-color: #598d66;
+    color: #f4f6f5;
+    cursor: pointer;
+}
+
+.reproduction {
+    margin-top: 40px;
+}
+.catalog_buy:hover {
+    transition: 0.4s ease-in-out;
+    background-color: #598d66;
+    color: #f4f6f5;
+    cursor: pointer;
+}
+.catalog-header {
+    height: fit-content;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog_name {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2c2d35;
+}
+.catalog_main{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1520px;
+}
+.catalog_window {
+    margin: 15px;
+    width: 350px;
+    height: 730px;
+}
+.catalog_info {
+    padding: 20px;
+}
+.country_name {
+    margin-left: 32px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 135px;
+    height: 43px;
+    background: #d4e8d9;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.country_name-green {
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 126px;
+    height: 43px;
+    background: #376b44;
+    font-weight: 500;
+    font-size: 20px;
+    color: #f4f6f5;
+}
+.catalog_info {
+    width: 350px;
+    height: 730px;
+    background: #e1ede6;
+}
+.img_catalog {
+    width: 100%;
+}
+.catalog_name-2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928b;
+    padding: 10px 0 10px 0;
+}
+.catalog_name_info {
+    font-weight: 500;
+    font-size: 30px;
+    color: #2c2d35;
+    margin-bottom: 10px;
+}
+.catalog_holst {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c2d35;
+    margin-bottom: 30px;
+}
+.price {
+    font-weight: 500;
+    font-size: 24px;
+    color: #598d66;
+}
+.catalog_buy {
+    font-weight: 500;
+    font-size: 20px;
+    color: #598d66;
+    border: 1px solid #598d66;
+    padding: 20px 60px;
+    width: 310px;
+    height: 65px;
+    background: none;
+    margin-top: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+.collection {
+    background: url("images/pic_background-2.jpg") top center/cover no-repeat;
+    height: 574px;
+    margin-top: 70px;
+    width: 100%;
+}
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #f4f6f5;
+    margin-top: -85px;
+    margin-left: 110px;
+    width: 450px;
+}
+.collection_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    width: 520px;
+    padding-top: 30px;
+}
+.collection_text-2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    width: 520px;
+    padding-top: 30px;
+}
+.button_collection {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    padding: 20px 60px;
+    width: 257px;
+    height: 65px;
+    background: #eedb6d;
+    margin-top: 60px;
+    border: 1px solid #eedb6d;
+    transition: 0.4s all;
+}
+.button_collection:hover{
+    background: #faeb97;
+    border: 1px solid #a38314;
+    cursor: pointer;
+}
+.collection_info {
+    padding-top: 70px;
+}
+.team {
+    height: 590px;
+}
+.team-wrapper {
+    margin-top: 70px;
+    height: fit-content;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team_name {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2c2d35;
+    padding-bottom: 25px;
+}
+.team_information {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2c2d35;
+    width: 625px;
+    padding-bottom: 25px;
+}
+.ramka {
+    width: 445px;
+    height: 440px;
+}
+.ramka img {
+    width: 100%;
+}
+.person {
+    margin-right: 30px;
+}
+.footer {
+    width: 100%;
+    height: 168px;
+    background: #e1ede6;
+    display: flex;
+    align-items: center;
+}
+.footerCon {
+    width: 100%;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.workshop-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_number {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    margin-bottom: 8px;
+}
+.footer_workshop {
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928b;
+}
+.footer_block-information {
+    display: flex;
+    width: 445px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_reproduction {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    padding-bottom: 5px;
+}
+
+.footer_country {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928b;
+    padding-bottom: 5px;
+}
+
+.footer_new {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    padding-bottom: 5px;
+}
+
+.footer_years {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928b;
+    padding-bottom: 5px;
+}
+
+.footer_about {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+    padding-bottom: 5px;
+}
+.footer_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+    width: 132px;
+    height: 100%;
+}
+.footer_social span {
+    margin-right: 50px;
+}
+.footer_text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #86928b;
+}
+.fox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.mob{
+    display: none;
+}
+.des{
+    display: flex;
+}
+.mobile-devider {
+    background: #c3d1c6;
+    width: 510px;
+    height: 1px;
+    display: none;
+}
+.HD{
+    display: flex;
+}
+.MB{
+    display: none;
+}
+@media (max-width: 1490px) {
+    .container {
+        max-width: 1110px;
+    }
+    .catalog_main {
+        justify-content: space-between;
+    }
+    .catalog_window {
+        margin: 0;
+    }  
+}
+@media (max-width: 1140px) {
+    .container {
+        max-width: 700px;
+    }
+    .navigation {
+        font-size: 18px;
+    }
+    .nav {
+        width: 400px;
+    }
+    .bird {
+        min-width: 330px;
+        min-height: 380px;
+        width: 330px;
+        height: 380px;
+    }
+    .bird img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 100%;
+        width: 330px;
+    }
+    h1 span {
+        font-size: 40px;
+        line-height: 100%;
+        width: 330px;
+    }
+    .promo_text {
+        width: 330px;
+    }
+    .catalog_name {
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .country_name {
+        margin-left: 12px;
+        width: 126px;
+    }
+    .catalog_main {
+        justify-content: space-between;
+        height: fit-content;
+    }
+    .catalog_window {
+        width: 330px;
+        height: 730px;
+        margin-bottom: 30px;
+    }
+    .catalog_info {
+        width: 100%;
+        height: 730px;
+    }
+    .collection {
+        background: url("images/pic_background.jpg") center center/cover no-repeat;
+    }
+    h3 {
+        font-size: 30px;
+        width: 370px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .catalog_buy {
+        width: 290px;
+    }
+    .collection_media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 65%;
+    }
+    .stars_collection {
+        width: 60px;
+        height: 60px;
+    }
+    .collection_text {
+        width: 100%;
+    }
+    .collection_text-2 {
+        width: 100%;
+    }
+    .team {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .team-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .person {
+        margin-right: 20px;
+    }
+    .team_name {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .footer {
+        padding: 30px 0;
+        height: fit-content;
+    }
+    .mob{
+        display: block;
+    }
+    .des{
+        display: none;
+    }
+    .footer.mob {
+        height: 250px;
+        padding-bottom: 0;
+    }
+
+    .footer.mob > .footerCon{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_conbox2 {
+        height: 125px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_block-information {
+        display: flex;
+        max-width: 445px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .workshop-box {
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .footer_social {
+        width: 169.5px;
+        padding-right: 37.5px;
+    }
+}
+@media (max-width: 736px) {
+    .container {
+        max-width: 510px;
+    }
+    .mobile-devider {
+        display: block;
+    }
+    .header {
+        padding: 15px 0;
+        height: 123px;
+    }
+    .header-wrapper {
+        width: 100%;
+        height: 90px;
+        flex-direction: column;
+    }
+    .nav {
+        height: 30px;
+        width: 472px;
+    }
+    .bird {
+        min-width: 195px;
+        min-height: 239px;
+        width: 195px;
+        height: 239px;
+    }
+    h1 {
+        font-size: 36px;
+        width: 285px;
+        padding-bottom: 15px;
+    }
+    .promo {
+        margin-top: 50px;
+    }
+    .promo_text {
+        font-size: 16px;
+        width: 285px;
+        margin-bottom: 15px;
+    }
+    .catalog-header {
+        flex-direction: column;
+        height: 87px;
+        align-items: flex-start;
+    }
+    .country_name {
+        margin-left: 0px;
+        margin-right: 12px;
+        width: 126px;
+    }
+    .button {
+        font-size: 18px;
+        padding: 14px 40px;
+        width: 178px;
+        height: 50px;
+    }
+    .catalog_window {
+        width: 240px;
+        height: 514px;
+        margin-bottom: 20px;
+    }
+    .catalog_name_info {
+        font-size: 24px;
+    }
+    .catalog_name {
+        font-size: 24px;
+    }
+    .catalog_buy {
+        width: 200px;
+        height: 50px;
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+    .catalog_info {
+        width: 100%;
+        height: 100%;
+    }
+    .catalog_holst {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .catalog_buy {
+        margin-top: 14px;
+    }
+    .collection_media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h3 {
+        width: 350px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .button_collection {
+        font-size: 18px;
+        padding: 14px 20px;
+        width: 178px;
+        height: 50px;
+    }
+    .team_information-main {
+        max-width: 100%;
+    }
+    .team_information {
+        max-width: 100%;
+    }
+    .footer.mob {
+        height: 363px;
+    }
+    .footer .mobile-devider {
+        margin: 15px 0;
+    }
+    .footer.mob > .footerCon {
+        height: 273px;
+    }
+    .footer_conbox2 {
+        padding-top: 30px;
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_block-information {
+        max-width: 1000px;
+        width: 100%;
+    }
+    .footer_social {
+        width: 177px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    .footer_social span {
+        margin-right: 0px;
+    }
+    .catalog_name-2 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 525px){
+    .container{
+        width: 93%;
+    }
+    .HD{
+        display: none;
+    }
+    .MB{
+        display: block;
+    }
+    .logoBox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 17px 0;
+        background-color:#fff;
+    }
+    .logoBox .container {
+        position: relative;
+    }
+    .header {
+        height: 130px;
+        padding: 0;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+    .hamburger {
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hamburger span{
+        background: #4c5866;
+        height: 2px;
+        width: 22px;
+        border-radius: 2px;
+    }
+    .menu_item {
+        font-weight: 500;
+        font-size: 20px;
+        color: #2c2d35;
+        text-decoration: none;
+    }
+    .menu {
+        border-radius: 10px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: #e1ede6;
+        z-index: 2;
+        position: relative;
+        top: -350px;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .menu_active {
+        top: 0;
+        opacity: 100;
+    }
+    .county{
+        display: flex;
+    }
+    
+    h3 {
+        margin-left: 10px;
+    }
+    .collection_media {
+        width: 100%;
+    }
+    .collection_text {
+        font-size: 16px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .collection_text-2 {
+        font-size: 16px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .button_collection {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .team-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+    .ramka {
+        max-width: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    .images_team{
+        display: flex;
+        justify-content: space-between;
+    }
+    .person {
+        margin-right: 0px;
+    }
+    .workshop-box {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .footer_country, .footer_new, .footer_reproduction, .footer_years, .footer_about{
+        font-size: 12px;
+    }
+    .footer_block-information {
+        justify-content: space-around;
+    }
+    .catalog_main {
+        justify-content: center;
+    }
+}
+@media (max-width: 350px) {
+    .catalog_window {
+        width: 100%;
+        height: 585px;
+        margin-bottom: 30px;
+    }
+    .catalog_info {
+        width: 100%;
+        height: 585px;
+    }
+}
